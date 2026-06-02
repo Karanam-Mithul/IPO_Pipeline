@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+data/raw/*.pkl
+data/processed/*.pkl
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+
+# Docker
+postgres_data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
